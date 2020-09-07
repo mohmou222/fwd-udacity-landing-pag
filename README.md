@@ -13,14 +13,13 @@ The Landing Page has some HTML and CSS styling to display a lot of section. All 
 
 The project has this structure:
 
-> css
-- styles.css    
-index.html
-js
-- app.js
+> **css**
+> - styles.css    
+> **js**
+> - app.js
+> index.html
 
-
-## RunLocally
+## How to run locally
 To run the project locally just open the `index.html` file with any web browser.
 
 ## Screenshots
@@ -28,4 +27,4 @@ To run the project locally just open the `index.html` file with any web browser.
 ![](https://i.ibb.co/fd8Y6bz/img.png)
 
 ## Dependencies
-googleapis -fonts -Fira+Sans & Merriweather
+googleapis -> fonts -> Fira+Sans & Merriweather
