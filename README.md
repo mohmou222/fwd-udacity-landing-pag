@@ -3,11 +3,29 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
+* [How to run locally](#runLocally)
+* [Screenshots](#screenshots)
+* [Dependencies](#dependencies)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+The Landing Page has some HTML and CSS styling to display a lot of section. All features are usable across modern desktop, tablet, and phone browsers.
 
-To get started, open `js/app.js` and start building out the app's functionality
+The project has this structure:
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+> css
+- styles.css    
+index.html
+js
+- app.js
+
+
+## RunLocally
+To run the project locally just open the `index.html` file with any web browser.
+
+## Screenshots
+
+![](https://i.ibb.co/fd8Y6bz/img.png)
+
+## Dependencies
+googleapis -fonts -Fira+Sans & Merriweather

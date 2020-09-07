@@ -34,6 +34,13 @@ function setNavItemAsActive(element){
         element.classList.add('active');
 }
 
+function addClassToActiveSection(section){
+    for(sec of sections){
+        sec.classList.remove('your-active-class');
+    }
+    section.classList.add('your-active-class');
+}
+
 function isSectionInView(section, top, lessValue){
     const bClient= section.getBoundingClientRect();
     if (bClient.top > top & bClient.top < lessValue) {
@@ -85,6 +92,7 @@ function setActive(){
 
         const navItem =  navbarList.querySelector(`[data-section=${section.id}]`);
         setNavItemAsActive(navItem)
+        addClassToActiveSection(section)
     });
 }
 
@@ -92,7 +100,8 @@ function setActive(){
 function scrollTo(){
     navbarList.addEventListener('click', function(e){
         const sectionId = e.target.getAttribute('data-section');
-        setNavItemAsActive(e.target)
+        //setNavItemAsActive(e.target)
+        //addClassToActiveSection(e.target)
         document.getElementById(sectionId).scrollIntoView();
     });
 }
