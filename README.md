@@ -14,9 +14,11 @@ The Landing Page has some HTML and CSS styling to display a lot of section. All 
 The project has this structure:
 
 > **css**
-> - styles.css    
+> -> styles.css 
+>    
 > **js**
-> - app.js
+> -> app.js
+>
 > index.html
 
 ## How to run locally
